@@ -157,47 +157,7 @@ graph TB
 
 ---
 
-## 六、如何确认已经上传到 GitHub？
-
-按下面任一种方式检查即可确认 **Marketing-AlanSkill 技能包** 是否已在你的 GitHub 上。
-
-### 方法 1：在浏览器里打开仓库（推荐）
-
-1. 打开本仓库首页：**https://github.com/BitmanAlan/marketing-alanskill**。  
-2. 确认分支为 **main** 或 **master**（与你本地推送分支一致）。  
-3. 根目录即 Skill 包内容，能看到 **README.md**、**fmcg-data-acquisition**、**fmcg-two-region-report-merge** 等 6 个子文件夹和 **assets**、**scripts**，即表示已上传成功。
-
-**直达链接**（打开即能确认已上传）：  
-👉 **https://github.com/BitmanAlan/marketing-alanskill**
-
-### 方法 2：用 Git 在本地查
-
-在项目根目录执行：
-
-```bash
-git log -1 --oneline -- marketing-alanskill/
-```
-
-若能看到一条包含 `marketing-alanskill` 的 commit（例如 `feat: add marketing-alanskill ...`），说明本地已提交；再执行：
-
-```bash
-git status
-```
-
-若显示 `Your branch is up to date with 'origin/master'`，且你刚才已执行过 `git push origin master`，则远程通常已更新。再在浏览器打开上面链接做一次肉眼确认即可。
-
-### 方法 3：克隆一份到临时目录验证
-
-```bash
-git clone https://github.com/BitmanAlan/marketing-alanskill.git /tmp/marketing-alanskill-check
-ls /tmp/marketing-alanskill-check
-```
-
-若能看到 README.md 和 6 个子 Skill 文件夹，说明 GitHub 上已有完整技能包。
-
----
-
-## 七、步骤清单（按执行顺序 1～7）
+## 六、步骤清单（按执行顺序 1～7）
 
 1. **数据获取**：调用 Apify / 其他 API，产出「海外快消趋势报告」与「中国快消趋势报告」。  
 2. **输入准备**：确认两份报告就绪；若要做 Obsidian 发布，确认 vault 路径与源报告笔记名。  
@@ -209,7 +169,7 @@ ls /tmp/marketing-alanskill-check
 
 ---
 
-## 八、在其他电脑 / 项目使用（可移植性）
+## 七、在其他电脑 / 项目使用（可移植性）
 
 本文件夹可**整体复制**到任意电脑或项目使用。
 
@@ -220,7 +180,7 @@ ls /tmp/marketing-alanskill-check
 
 ---
 
-## 九、使用前检查清单（随时可用的前提）
+## 八、使用前检查清单（随时可用的前提）
 
 - [ ] 已确定「当前项目」根目录（报告将产出到该项目的 `output/` 或你指定的目录）。  
 - [ ] 数据获取：若拉海外数据，已配置 Apify Token；若拉中国数据，可用今日热榜 API 或当前项目内脚本。  
@@ -229,7 +189,7 @@ ls /tmp/marketing-alanskill-check
 
 ---
 
-## 十、资产与脚本
+## 九、资产与脚本
 
 | 文件 | 说明 |
 |------|------|
