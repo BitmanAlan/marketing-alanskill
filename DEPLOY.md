@@ -14,12 +14,12 @@
 
 ### 2. 在本地添加远程并推送
 
-在**本目录**（`marketing-alanskill-repo`）下执行（把 `sansan0` 换成你的 GitHub 用户名）：
+在**本目录**（`marketing-alanskill-repo`）下执行：
 
 ```bash
 cd /Users/limingxuan/dev/Trendradar/marketing-alanskill-repo
 
-git remote add origin https://github.com/sansan0/marketing-alanskill.git
+git remote add origin https://github.com/BitmanAlan/marketing-alanskill.git
 git push -u origin main
 ```
 
@@ -27,13 +27,13 @@ git push -u origin main
 
 ```bash
 git branch -M master
-git remote add origin https://github.com/sansan0/marketing-alanskill.git
+git remote add origin https://github.com/BitmanAlan/marketing-alanskill.git
 git push -u origin master
 ```
 
 ### 3. 确认
 
-打开 **https://github.com/sansan0/marketing-alanskill**，能看到 README 和 6 个子文件夹即表示成功。
+打开 **https://github.com/BitmanAlan/marketing-alanskill**，能看到 README 和 6 个子文件夹即表示成功。
 
 ---
 

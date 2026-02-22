@@ -1,7 +1,7 @@
 # Marketing-AlanSkill · 中国与海外商业趋势挖掘技能包
 
 | 📦 是什么 | 基于 **中国 + 海外** 社媒/热榜的 **商业趋势挖掘** Skill 包，6 步从拉数到报告、可视化、机会解读与知识库发布 |
-| 🌐 GitHub | **独立仓库** · 直达：[sansan0/marketing-alanskill](https://github.com/sansan0/marketing-alanskill) |
+| 🌐 GitHub | **独立仓库** · 直达：[BitmanAlan/marketing-alanskill](https://github.com/BitmanAlan/marketing-alanskill) |
 | ✅ 确认上传 | 打开上链，能看到本 README 和 6 个子文件夹即表示已成功推送到 GitHub |
 
 > 一套基于 **中国 + 海外** 社媒与热榜数据的 **商业趋势挖掘** 工作流，拆成 6 个可复用 Skill，从数据拉取到报告合并、可视化、机会解读与知识库发布，一条龙跑通。
@@ -163,12 +163,12 @@ graph TB
 
 ### 方法 1：在浏览器里打开仓库（推荐）
 
-1. 打开本仓库首页：**https://github.com/sansan0/marketing-alanskill**（或你自己的 GitHub 用户名 / 仓库名）。  
+1. 打开本仓库首页：**https://github.com/BitmanAlan/marketing-alanskill**。  
 2. 确认分支为 **main** 或 **master**（与你本地推送分支一致）。  
 3. 根目录即 Skill 包内容，能看到 **README.md**、**fmcg-data-acquisition**、**fmcg-two-region-report-merge** 等 6 个子文件夹和 **assets**、**scripts**，即表示已上传成功。
 
 **直达链接**（打开即能确认已上传）：  
-👉 **https://github.com/sansan0/marketing-alanskill**
+👉 **https://github.com/BitmanAlan/marketing-alanskill**
 
 ### 方法 2：用 Git 在本地查
 
@@ -189,7 +189,7 @@ git status
 ### 方法 3：克隆一份到临时目录验证
 
 ```bash
-git clone https://github.com/sansan0/marketing-alanskill.git /tmp/marketing-alanskill-check
+git clone https://github.com/BitmanAlan/marketing-alanskill.git /tmp/marketing-alanskill-check
 ls /tmp/marketing-alanskill-check
 ```
 
